@@ -2,7 +2,7 @@
 
 
 
-[image1]: ./test_images_output/solidWhiteRight.jpg "Lane Detection"
+![Output Image][./test_images_output/solidWhiteRight.jpg]
 
 ---
 
@@ -27,7 +27,7 @@ In order to draw a single line on the left and right lanes, I modified the `draw
 ### 2. Identify potential shortcomings with your current pipeline
 
 I ran my pipeline on `challenge.mp4` and identified some problems.
-* Hough Transform require scene specific parameter tuning. Even though the parameters I found were working well on other two videos, it didn't gave good result on challenge.mp4 because there were other lines that were detected by Hough Transform.
+* Hough Transform requires scene specific parameter tuning. Even though the parameters I found were working well on other two videos, it didn't gave good result on challenge.mp4 because there were other lines that were detected by Hough Transform.
 * I also noticed algorithm didn't work when there was a different road color or change in light/shadow.
 * Since my current implementation uses slope to find full line, sometimes it makes mistakes when there isn't proper curve on road.
 
