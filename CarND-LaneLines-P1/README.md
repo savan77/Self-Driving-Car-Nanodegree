@@ -3,6 +3,8 @@
 
 <img src="examples/laneLines_thirdPass.jpg" width="480" alt="Combined Image" />
 
+**Submission Note** Please find `Project_Writeup.ipynb`.
+
 Overview
 ---
 
