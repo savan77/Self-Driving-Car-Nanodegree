@@ -2,7 +2,7 @@
 
 
 
-![Output Image][./test_images_output/solidWhiteRight.jpg]
+![Output Image](./test_images_output/solidWhiteRight.jpg)
 
 ---
 
