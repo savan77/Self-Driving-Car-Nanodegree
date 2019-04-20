@@ -65,9 +65,12 @@ def complete_lines_new(lines, imshape):
         avg_slope_left = slope_l/count_l
         avg_leftx = l_x/count_l
         avg_lefty = l_y/count_l
+        print(avg_leftx)
+        print(avg_lefty)
         xb_l = int(((int(0.97*imshape[0])-avg_lefty)/avg_slope_left) + avg_leftx)
         xt_l = int(((int(0.61*imshape[0])-avg_lefty)/avg_slope_left)+ avg_leftx)
-
+        print(xb_l)
+        print(xt_l)
     
     if count_r>0:
         avg_slope_right = slope_r/count_r
@@ -147,7 +150,7 @@ def simple_line_detect(frame):
 
 	lines = cv2.HoughLinesP(masked_edges, rho, theta, threshold, np.array([]),
 	                            min_line_length, max_line_gap)
-	# lines = [complete_lines_new(lines, imshape)]
+	lines = [complete_lines_new(lines, imshape)]
 	# for line in lines:
 	for line in lines:
 		for x1,y1,x2,y2 in line:
