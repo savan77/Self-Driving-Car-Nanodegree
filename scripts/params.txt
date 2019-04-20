@@ -1,1 +1,4 @@
 	vertices = np.array([[(120,imshape[0]),(int(imshape[1]/2)-20,int(imshape[0]/2)+40), (int(imshape[1]/2)+20, int(imshape[0]/2+40)), (imshape[1]-75,imshape[0])]], dtype=np.int32)
+
+
+	vertices = np.array([[(110,imshape[0]),(int(imshape[1]/2)-35,int(imshape[0]/2)+45), (int(imshape[1]/2)+40, int(imshape[0]/2+45)), (imshape[1]-75,imshape[0])]], dtype=np.int32)
