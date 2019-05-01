@@ -17,21 +17,21 @@ I followed instructions given in lectures to calculate camera matrix and distort
 
 #### 2. Provide an example of a distortion-corrected image.
 
-![Undistorted Image](./examples/Screenshot2.jpg)
-![Undistorted Image](./examples/Screenshot3.jpg)
+![Undistorted Image](./examples/Screenshot2.png)
+![Undistorted Image](./examples/Screenshot3.png)
 
 #### 3. Describe how (and identify where in your code) you used color transforms, gradients or other methods to create a thresholded binary image. Provide an example of a binary image result.
 
 Following the lecture and some trial and error, I found S channel in HLS color space most useful. Moreover, I tried with `Sobel X`, `Sobel Y`, and also `Sobel Magnitude` for gradients. I found the combination of Sobel X and Sobel Y most usuful. The code can be found in cell `55`.
 
-![Binary Image](./examples/Screensho5.jpg)
+![Binary Image](./examples/Screenshot5.png)
 
 #### 4. Describe how (and identify where in your code) you performed a perspective transform and provide an example of a transformed image.
 
 For perspective transformation, we need to select source point and destination point to change the view (i.e bird eye). For this, I found both of these points through trial and error. Code for this can be found in cell `56`.
 
-![Binary Image](./examples/Screenshot4.jpg)
-![Binary Image](./examples/Screenshot1.jpg)
+![Binary Image](./examples/Screenshot4.png)
+![Binary Image](./examples/Screenshot1.png)
 
 
 #### 5. Describe how (and identify where in your code) you identified lane-line pixels and fit their positions with a polynomial?
