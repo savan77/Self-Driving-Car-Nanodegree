@@ -3,9 +3,11 @@
 ![Lanes Image](./examples/example_output.jpg)
 
 ### Submission Note
-** Please find `P2.ipynb` which contains code for this project. `experiments.ipynb` contains various experiments that I carried out to test different approaches.
-** [Link to Output Video (project_video.mp4)](https://drive.google.com/file/d/1MiFRwjmVgJxiquISm-z501C7eNgOyrQc/view?usp=sharing)
-** [Link to Output Video 2](https://drive.google.com/file/d/1JO36GXPaqSEQ_1VrrvTFmw67ISBbrJNO/view?usp=sharing)
+**Please find `P2.ipynb` which contains code for this project. `experiments.ipynb` contains various experiments that I carried out to test different approaches.**
+
+- [Link to Output Video (project_video.mp4)](https://drive.google.com/file/d/1MiFRwjmVgJxiquISm-z501C7eNgOyrQc/view?usp=sharing)
+
+- [Link to Output Video 2](https://drive.google.com/file/d/1JO36GXPaqSEQ_1VrrvTFmw67ISBbrJNO/view?usp=sharing)
 
 In this project, your goal is to write a software pipeline to identify the lane boundaries in a video, but the main output or product we want you to create is a detailed writeup of the project.  Check out the [writeup template](https://github.com/udacity/CarND-Advanced-Lane-Lines/blob/master/writeup_template.md) for this project and use it as a starting point for creating your own writeup.  
 
