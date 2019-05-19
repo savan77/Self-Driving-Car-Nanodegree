@@ -59,32 +59,20 @@ I could have also used augmentation to increase the number of images, but these 
 
 I tried so many architecures by chanding/adding various layers such as Convolutional, Feed Forward, BatchNorm and Dropout. My final architecture is given below:
 
-Layer (type)                 Output Shape              Param    
-
-
-conv2d_1 (Conv2D)            (None, 30, 30, 64)        640       
-_________________________________________________________________
-max_pooling2d_1 (MaxPooling2 (None, 15, 15, 64)        0         
-_________________________________________________________________
-dropout_1 (Dropout)          (None, 15, 15, 64)        0         
-_________________________________________________________________
-conv2d_2 (Conv2D)            (None, 13, 13, 128)       73856     
-_________________________________________________________________
-max_pooling2d_2 (MaxPooling2 (None, 6, 6, 128)         0         
-_________________________________________________________________
-dropout_2 (Dropout)          (None, 6, 6, 128)         0         
-_________________________________________________________________
-flatten_1 (Flatten)          (None, 4608)              0         
-_________________________________________________________________
-dense_1 (Dense)              (None, 320)               1474880   
-_________________________________________________________________
-dropout_3 (Dropout)          (None, 320)               0         
-_________________________________________________________________
-dense_2 (Dense)              (None, 120)               38520     
-_________________________________________________________________
-dropout_4 (Dropout)          (None, 120)               0         
-_________________________________________________________________
-dense_3 (Dense)              (None, 43)                5203      
+|        Layer (type)        |     Output Shape      | Param     |
+|:--------------------------:|:---------------------:|:---------:|
+|conv2d_1 (Conv2D)           | (None, 30, 30, 64)    |    640    |    
+|max_pooling2d_1 (MaxPooling2| (None, 15, 15, 64)    |    0      |    
+|dropout_1 (Dropout)         | (None, 15, 15, 64)    |    0      |    
+|conv2d_2 (Conv2D)           | (None, 13, 13, 128)   |    73856  |    
+|max_pooling2d_2 (MaxPooling2| (None, 6, 6, 128)     |    0      |    
+|dropout_2 (Dropout)         | (None, 6, 6, 128)     |    0      |    
+|flatten_1 (Flatten)         | (None, 4608)          |    0      |    
+|dense_1 (Dense)             | (None, 320)           |    1474880|   
+|dropout_3 (Dropout)         | (None, 320)           |    0      |  
+|dense_2 (Dense)             | (None, 120)           |    38520  |   
+|dropout_4 (Dropout)         | (None, 120)           |    0      |   
+|dense_3 (Dense)             | (None, 43)            |    5203   |   
 
 Total params: 1,593,099
 Trainable params: 1,593,099
