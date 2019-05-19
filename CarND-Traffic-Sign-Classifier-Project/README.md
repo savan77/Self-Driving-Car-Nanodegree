@@ -41,6 +41,7 @@ I used numpy and matplotlib to do the visualization. I visualized few samples im
 Here, training data may seem imbalanced but since test data also follows similar distribution it would not hurt our model.
 
 ![sample][images/sample.png]
+
 ![bar chart][images/bar.png]
 
 ### Design and Test a Model Architecture
@@ -109,7 +110,7 @@ You can find the training logs in cell no 22 of the notebook.
 
 You can see the images below.
 
-![trafficsign][./images/german.png]
+![trafficsign](./images/german.png)
 
 I think the first image is cosiderably dark and it might cause an issue. Rest of the images look good and should not cause any issue.
 
