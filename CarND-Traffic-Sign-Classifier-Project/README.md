@@ -109,7 +109,7 @@ You can find the training logs in cell no 22 of the notebook.
 
 You can see the images below.
 
-![trafficsign][images/german.png]
+![trafficsign][./images/german.png]
 
 I think the first image is cosiderably dark and it might cause an issue. Rest of the images look good and should not cause any issue.
 
@@ -124,7 +124,7 @@ Model was able to classify all 5 images correctly which gives the accuracy of 10
 |:------------------------:|:------------------:|
 | Pedestrian               |  Pedestrian        |
 | Stop Sign                |  Stop Sign         |
-| Turn Left                |  Turn Left         |
+| Turn Left Ahead          |  Turn Left Ahead   |
 | Speed Limit 50km/h       |  Speed Limit 50km/h|
 | Yield                    |  Yield             |
 
@@ -133,21 +133,21 @@ Model was able to classify all 5 images correctly which gives the accuracy of 10
 
 
 
-You can find the top 5 probabilities for each image in cell no 30.
+You can find the top 5 probabilities for each image in cell no 31.
 
 For the first image, the model was 99% sure about its prediction. The top 5 probabilites were [  9.98924792e-01   3.19380692e-04   3.10595293e-04   2.81221000e-04
-   1.63494537e-04] corresponding to classes [, , , ,].
+   1.63494537e-04] corresponding to classes [Pedestrian, Bumpy Road, Vehicles over 3.5 metric tons prohibited, Right-of-way at the next intersection, Traffic signals].
 
 For the second image, the model was 99% sure about its prediction. The top 5 probabilites were [  9.99999285e-01   6.52067342e-07   8.64381562e-08   1.65135692e-08
-   1.26983961e-08] corresponding to classes [, , , ,].
+   1.26983961e-08] corresponding to classes [Stop Sign, Speed Limit (120), Speed Limit (60) , Speed Limit (30) , Speed Limit (70)].
 
 For the third image, the model was 100% sure about its prediction. The top 5 probabilites were [  1.00000000e+00   9.69225500e-09   7.49955831e-09   6.53126664e-10
-   8.71908309e-11] corresponding to classes [, , , ,].
+   8.71908309e-11] corresponding to classes [Turn Left Ahead, Keep Right , Yield, Ahead Only, Speed Limit (60)].
 
 For the fourth image, the model was 100% sure about its prediction. The top 5 probabilites were [  1.00000000e+00   1.54494608e-13   1.91006489e-14   1.88869691e-15
-   4.82828030e-21] corresponding to classes [, , , ,].
+   4.82828030e-21] corresponding to classes [Speed Limit 50km/h, Speed Limit 80, Speed Limit 60, Speed Limit 30, Speed Limit 120].
 
 For the fifth image, the model was 100% sure about its prediction. The top 5 probabilites were [  1.00000000e+00   4.86025560e-11   4.83911122e-18   4.05049956e-18
-   5.30592936e-19] corresponding to classes [, , , ,].
+   5.30592936e-19] corresponding to classes [Yield, Ahead Only, Priority Road, Slipeer Road, Keep Right].
 
 As we can see, our model is very good at classifying these images with high confidence.
