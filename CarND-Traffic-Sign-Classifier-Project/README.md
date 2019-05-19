@@ -59,8 +59,9 @@ I could have also used augmentation to increase the number of images, but these 
 
 I tried so many architecures by chanding/adding various layers such as Convolutional, Feed Forward, BatchNorm and Dropout. My final architecture is given below:
 
-Layer (type)                 Output Shape              Param #   
-=================================================================
+Layer (type)                 Output Shape              Param    
+
+
 conv2d_1 (Conv2D)            (None, 30, 30, 64)        640       
 _________________________________________________________________
 max_pooling2d_1 (MaxPooling2 (None, 15, 15, 64)        0         
@@ -84,7 +85,7 @@ _________________________________________________________________
 dropout_4 (Dropout)          (None, 120)               0         
 _________________________________________________________________
 dense_3 (Dense)              (None, 43)                5203      
-=================================================================
+
 Total params: 1,593,099
 Trainable params: 1,593,099
 Non-trainable params: 0
