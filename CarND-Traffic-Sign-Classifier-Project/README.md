@@ -40,9 +40,9 @@ Cell no.4 in the notebook calculates basic summary of the dataset which is given
 I used numpy and matplotlib to do the visualization. I visualized few samples image as well as bar chart to check the class imbalance. You can find them in cell no 6 and 8.
 Here, training data may seem imbalanced but since test data also follows similar distribution it would not hurt our model.
 
-![sample][images/sample.png]
+![sample](./images/sample.png)
 
-![bar chart][images/bar.png]
+![bar chart](./images/bar.png)
 
 ### Design and Test a Model Architecture
 
@@ -53,7 +53,7 @@ Here, training data may seem imbalanced but since test data also follows similar
 I used two simple techniques to preprocess images- grayscale and normalization. I used grayscale to reduce the computation and normalization to make learning easier for neural networks.
 I could have also used augmentation to increase the number of images, but these dataset gave me enough accuracy, so chose not to do data augmentation.
 
-![gray][images/gray.png]
+![gray](./images/gray.png)
 
 #### 2. Describe what your final model architecture looks like including model type, layers, layer sizes, connectivity, etc.) Consider including a diagram and/or table describing the final model.
 
