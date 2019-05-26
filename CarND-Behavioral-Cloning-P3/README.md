@@ -10,7 +10,7 @@ The goals / steps of this project are the following:
 * Test that the model successfully drives around track one without leaving the road
 * Summarize the results with a written report
 
-#### **Submission Note**: Please find `model.py`, `preprocess.py`, and `run2.mp4`.
+#### **Submission Note**: Please find `model.py`, `preprocess.py`, and `video.mp4`.
 
 
 ## Rubric Points
